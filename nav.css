@@ -20,11 +20,19 @@
   font-size: 18px;
 }
 .navbar ul li a {
-  color: whitesmoke;
+  color: black;
   text-decoration: none;
 }
 .navbar ul li a:hover {
   color: #ff0000;
+}
+
+.ul, .contact {
+  background-color: #e7e7e7;
+}
+
+.contact {
+  border: 1px solid #333333;
 }
 
 /*# sourceMappingURL=nav.css.map */
