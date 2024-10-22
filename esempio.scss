@@ -1,0 +1,8 @@
+/* Definiamo le variabili */
+$primary_1: #a2b9bc;
+$primary_2: #b2ad7f;
+
+/* usiamo le variabili per definire il colore */
+.main-header {
+    background-color: $primary_1;
+}
