@@ -35,4 +35,19 @@
   border: 1px solid #333333;
 }
 
+.div-1 {
+  background-color: black;
+  color: white;
+  height: 100px;
+  margin-top: 20px;
+  width: 33.3333333333%;
+}
+
+.div-2 {
+  background-color: black;
+  color: white;
+  height: 100px;
+  margin-top: 20px;
+}
+
 /*# sourceMappingURL=nav.css.map */

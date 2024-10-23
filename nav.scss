@@ -42,3 +42,21 @@ $a_items: center;
     @extend .ul;
     border: 1px solid #333333;
 }
+
+.div-1 {
+    background-color: black;
+    color: white;
+    height: 100px;
+    margin-top: 20px;
+    width: calc(100% / 3);
+}
+ 
+.div-2 {
+    background-color: black;
+    color: white;
+    height: 100px;
+    margin-top: 20px;
+}
+
+   
+
