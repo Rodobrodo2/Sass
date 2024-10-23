@@ -2,13 +2,13 @@ $display_container: flex;
 $j_content: center;
 $a_items: center;
 
-@import "/colors";
+@use '_colors';
 
 .navbar {
     width: 100%;
     height: 70px;
     display: $display_container;
-    background-color: $myBlue;
+    background-color: colors.$myBlue;
     justify-content: $j_content;
 
     ul {
@@ -48,7 +48,7 @@ $a_items: center;
 }
 
 .div-1 {
-    background-color: $myGreen;
+    background-color: colors.$myGreen;
     color: white;
     height: 100px;
     margin-top: 20px;
@@ -56,7 +56,7 @@ $a_items: center;
 }
 
 .div-2 {
-    background-color: $myPink;
+    background-color: colors.$myPink;
     color: white;
     height: 100px;
     margin-top: 20px;
