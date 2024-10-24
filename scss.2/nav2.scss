@@ -1,14 +1,78 @@
+body {
+    background-color: grey;
+}
+
 .navbar {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    background-color: orange;
+    height: 100px;
+    $row: row;
+    $center: center;
+
     .ul {
         display: flex;
         flex-direction: row;
+        gap: 5px;
+        align-items: center;
+
         li {
             list-style: none;
+            padding: 10px;
+            background-color: grey;
+
             a {
                 text-decoration: none;
+                color: white;
             }
         }
     }
+}
+
+$background-color: #000000;
+$menu-colors: white;
+$hover: yellow;
+$background-color-ul: grey;
+
+@mixin navbar($background-color, $menu-colors) {
+    background-color: $background-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 100px;
+    margin-top: 40px;
+    .ul1 {
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        align-items: center;
+    }
+    li {
+        list-style: none;
+        padding: 10px;
+        background-color: grey;
+    }
+    .hg4 {
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-size: 18px;
+    }
+}
+
+
+
+@mixin a($hover, $menu-colors) {
+    &:hover {
+        color: $hover;
+    }
+}
+
+.navbar2 {
+    @include navbar($background-color, $menu-colors);
+}
+
+.hg4 {
+    @include a($hover, $menu-colors);
 }
