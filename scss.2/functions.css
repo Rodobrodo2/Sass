@@ -1,0 +1,23 @@
+.div-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  color: white;
+  height: 100px;
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+.div-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  color: white;
+  height: 100px;
+  margin-top: 20px;
+  font-size: 0.3125em;
+}
+
+/*# sourceMappingURL=functions.css.map */

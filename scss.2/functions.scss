@@ -1,0 +1,25 @@
+@function px-to-em($px, $base: 16) {
+    @return calc($px / $base) * 1em;
+}
+
+.div-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    height: 100px;
+    margin-top: 20px;
+    font-size: px-to-em(24);
+}
+
+.div-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    height: 100px;
+    margin-top: 20px;
+    font-size: px-to-em(5);
+}
