@@ -115,3 +115,24 @@ $background-color-ul: grey;
         }
     }
 }
+
+$menu-items: (
+  ".menu-item-1": #ff6347,
+  ".menu-item-2": #4682b4,
+  ".menu-item-3": #32cd32,
+  ".menu-item-4": #ffa500
+);
+
+@each $item, $colore in $menu-items {
+    #{$item} {
+      background-color: $colore;
+      color: white;
+      padding: 10px;
+      margin: 5px;
+      text-align: center;
+      border-radius: 5px;
+      text-decoration: none;
+      display: block;
+      width: 100px;
+    }
+}
