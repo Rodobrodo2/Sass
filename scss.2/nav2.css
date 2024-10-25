@@ -24,6 +24,9 @@ body {
   text-decoration: none;
   color: white;
 }
+.navbar .ul li .home:hover {
+  color: blue;
+}
 
 .navbar2 {
   background-color: #000000;
